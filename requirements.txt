@@ -1,0 +1,45 @@
+# Installing local src package in editable mode
+-e .
+
+# Basic packages
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+setuptools==75.2.0
+
+#LLM packages
+langfuse==2.53.2
+langchain==0.2.16
+langflow==1.0.19
+neo4j==5.25.0
+ollama==0.3.3
+# qdrant-client==1.12.0
+openai==1.52.2
+anthropic==0.37.1
+
+# dependencies
+langsmith==0.1.137
+langwatch==0.1.31
+
+# new
+litellm==1.49.1
+crewai==0.70.1
+mlx
+transformers
+routellm
+
+#API handling
+pycurl==7.45.3
+requests==2.32.3
+
+# Clean-code
+python-dotenv==1.0.1
+ruff==0.6.9
+pre-commit==4.0.1
+
+# Packages for smooth Python dev environment run in VS Code on Docker
+IPython==8.29.0
+jupyter_client==8.6.3
+jupyter_core==5.7.2
+jupyterlab==4.2.5
+notebook==7.2.2

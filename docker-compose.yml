@@ -1,0 +1,12 @@
+services:
+    app:
+        build: .
+        container_name: python_agents
+        env_file:
+            - .env
+        command: sleep infinity
+        volumes:
+            - .:/app
+        
+# build: . - specifies that you want to build from the local Dockerfile
+# to run, you need to execute a single command: docker compose up
